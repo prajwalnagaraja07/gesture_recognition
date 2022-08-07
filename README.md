@@ -59,3 +59,6 @@ Right: Lift your right hand to move the car to right.
 Stop: Lift your both the hands to stop the car.
 
 <img width="795" alt="image" src="https://user-images.githubusercontent.com/110788191/183310805-e05c2728-6259-44a4-a60c-b61de9fda411.png">
+
+The script **model_visul.py** is to see and debug the model (VGG16) learnings using tf-keras-vis library.
+
