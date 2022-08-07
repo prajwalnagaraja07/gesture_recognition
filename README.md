@@ -1,6 +1,6 @@
 # GestureRecognition
 
-The script sign_detection.py is dedicated for new dataset collection and training model:
+The script **sign_detection.py** is dedicated for new dataset collection and training model:
 
 The following are methods implemented in Detection class
 ```
@@ -34,7 +34,19 @@ Comment out the following line in sign_detection.py, if new dataset is not neede
 train = detection.collect_traindata() # Comment if no need of new dataset
 ```
 
-Run the script mountainCar.py for controlling the mountain car in OpenAI gym env with gestures.
+Run the script **mountainCar.py** for controlling the mountain car in OpenAI gym env with gestures.
+
+It has following methods, also few methods are inherited from class Detection:
+
+```
+def enableGame(self,episodes):
+   '''Enable the game for live control of mountain car for specified episodes'''
+```
+
+```
+def prob_viz(self,res, actions, input_frame, colors):
+   '''Displays the predicted action'''
+```
 
 Following are the gestures allowed:
 
