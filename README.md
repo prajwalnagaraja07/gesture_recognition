@@ -16,18 +16,18 @@ def extract_keypoints(self,results):
 ```
 ```
 def collect_traindata(self):
-  '''''' Creates Training Data and saves it in directory'''
-  pass
+   '''Creates Training Data and saves it in directory'''
+   pass
 ```
 ```
 def plot_metrics(self,history):      
-''' Plots accuracy and loss curves'''
-  pass
+   ''' Plots accuracy and loss curves'''
+   pass
 ```
 ```
 def plot_confusion_matrix(self,y_pred,y_true):
- '''Plotting Confusion Matrix'''
-  pass
+   '''Plotting Confusion Matrix'''
+   pass
 ```
 Comment out the following line in sign_detection.py, if new dataset is not needed.
 ```
