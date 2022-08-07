@@ -41,11 +41,13 @@ It has following methods, also few methods are inherited from class Detection:
 ```
 def enableGame(self,episodes):
    '''Enable the game for live control of mountain car for specified episodes'''
+   pass
 ```
 
 ```
 def prob_viz(self,res, actions, input_frame, colors):
-   '''Displays the predicted action'''
+   '''Displays the predicted action'''   
+   return frame
 ```
 
 Following are the gestures allowed:
