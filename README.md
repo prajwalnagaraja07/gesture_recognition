@@ -39,7 +39,9 @@ Run the script mountainCar.py for controlling the mountain car in OpenAI gym env
 Following are the gestures allowed:
 
 Left: Lift your left hand to move the car to left.
+
 Right: Lift your right hand to move the car to right.
+
 Stop: Lift your both the hands to stop the car.
 
 <img width="795" alt="image" src="https://user-images.githubusercontent.com/110788191/183310805-e05c2728-6259-44a4-a60c-b61de9fda411.png">
